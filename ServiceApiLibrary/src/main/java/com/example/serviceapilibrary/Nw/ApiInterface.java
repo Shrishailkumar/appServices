@@ -12,7 +12,7 @@ public interface ApiInterface {
     String heroNode = mServiceApiDataFeeder.getGetHeroApiEndNodeName();
     final static String HERO_END_NODE = heroNode;
 
-
+    //end nodes
     @GET("marvel")
     Call<List<Hero>> getHeroes();
 }
